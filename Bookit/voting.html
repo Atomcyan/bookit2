@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav"> 
+       <img src="images/Bookit.png" id="logo" alt="Bookit logo">
+        <a title = 'Home' href="index.html"><img src="images/icons8-home-50.png"
+          alt="Home"> Home</a>
+         <a  title='Book Votes' href="voting.html" id="voting"><img src="images/icons8-ballot-50.png" 
+          alt="Voting"> Book Votes</a>
+         <a title="Book Reviews" href="review.html">
+          <img src="images/icons8-pencil-50.png" 
+          alt="Reviews"> Book Reviews</a>
+        
+      </div>
+      
+    <form action="index.html" method="post" id="voteForm">
+<div class="formOptions">
+      
+        
+        <h1>Featured Title Submission List</h1>
+        <br>
+        <div class="questions">
+        <h2>Book Titles</h2> 
+      
+        <label id="radio1">
+          <input name='option' class="Titles" id ='option1' type="radio" value="A Darker Shade of Magic">
+        A Darker Shade of Magic<br></label>
+        <label id="radio2">
+          <input name="option" class="Titles" id ='option2' type="radio" value="Frankenstein" >
+           Frankenstein<br></label>
+        <label id="radio3">
+          <input name="option" class="Titles" id ='option3'type="radio" value="Lord of The Files">
+          Lord of The Files<br></label>
+        <div class="questions">
+         <h2>Title Authors</h2>
+        
+         <label ><input name='title' class="Authors" id ="option4"  type="radio" value="V.E Schwab">
+          V.E Schwab  </label><br> 
+        <label><input  name="title" class="Authors" id ="option5"  type="radio" value="William Golding">
+          William Golding</label><br>
+        <label><input name="title" class="Authors" id ="option6"  type="radio" value="Mary Shelly">
+          Mary Shelly</label><br>
+    </div>
+  </div>
+    <input type="submit" value="Vote" id="voteButton">
+    
+       </div>
+     </form>
+      <footer>
+        <h1>More Resources</h1>
+       </footer>
+ 
+<script src="javaScript/voting.js"></script>
+<script src="javaScript/jquery.js"></script> 
+<script src="javaScript/voteSecurity.js"></script> 
+<script src="javaScript/effects.js"></script>
+</body>
+
+</html>

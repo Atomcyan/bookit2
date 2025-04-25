@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    }
+
+body{
+overflow-x: hidden;
+min-height: 100vh;
+background:  url('images/book_read_book_pages.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+color: #113627;
+}
+
+
+
+.nav{
+    display: block;
+    background-color: #113627;
+    min-width: 811px;
+    padding-top: 28px;
+    padding-bottom: 55px;
+    top:0;
+}
+
+#logo{
+    width:200px;
+    margin-left: 54px;
+    }
+    
+    .nav a img{
+        width: 45px;
+        
+        }
+.nav a{
+ 
+    padding-left: 54px; 
+    color: #ead2b8;
+    padding-bottom: 55px;
+    text-decoration: none;
+
+}
+
+.nav a:hover{
+text-decoration: underline;
+font-weight: bold;
+}
+
+.invalid{
+border: 3px solid red;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 10px;
+margin-bottom: 50px;
+margin-left: 12px;
+padding:7px 10px;
+}
+
+#Reviews{
+    background-color: white;
+    width: 50vw;
+    min-width: 447px ;
+    color: #113627;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    margin-top: 80px;
+    margin-left: 160px;
+
+    }
+
+
+    #seeReviews{
+        background-color: white;
+        width: 50vw;
+        min-width: 447px ;
+        color: #113627;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px black;
+        margin-top: 80px;
+        margin-left: 160px;
+    
+        }
+
+    #Reviews h1{
+    border-bottom: 3px solid #113627;
+    }
+
+     h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    text-decoration: underline;
+    }
+
+    .titleInput input{
+    background-color: #cffbcf;
+    color: #113627;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 12px;
+    padding:7px 10px;
+    }
+    
+    #Reviews textarea{
+    background-color: #cffbcf;
+    color: #113627;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 10px;
+    resize: vertical;
+    margin-bottom: 35px;
+    }
+
+    footer{
+
+        margin-top: 95vh;
+        background-color: #113627;
+        color: white;
+        padding: 60px 25px;
+        }
+
+    #postReview{
+        border-radius: 20px;
+        color: white;
+        padding: 16px 28px;
+background-color: lime;
+margin-left: 12px;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom:30px;
+    }
+
+    #postReview:hover{
+    background-color: limegreen;
+    }
+
+    .reviewPanel{
+        margin-left: 140px;
+        display: none;
+        border: 3px solid #113627;
+        padding: 0 18px;
+        
+        font-size: 15px;
+      
+        overflow: hidden;
+    }
+
+ 
+
+    .hiddenReview{
+        margin-left: 140px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #113627;
+        color: #ead2b8;
+        cursor: pointer;
+        padding: 18px;
+        width: 50%;
+      
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        
+    }
+
+  .activeReview{
+    background-color: #118827;
+  }
+
+    .activePanel{
+        display: block;
+        padding: 0 18px;
+       background-color: #cffbcf;
+        font-size: 18px;
+        border: 3px solid #118827;
+         font-family: 'Times New Roman', Times, serif;
+         width: 50%;
+         word-wrap: break-word;
+        min-height: 12vh;
+        overflow: hidden;
+    }
+
+    .activePanel h4{
+    margin-top: 21px;
+    }
+  
+    #reviewArea button {
+    display: list-item;
+    }
+  

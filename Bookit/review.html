@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <div class="nav"> 
+        <img src="images/Bookit.png" id="logo" alt="Bookit logo">
+        <a title = 'Home' href="index.html">
+            <img src="images/icons8-home-50.png" 
+          alt="Reviews"> Home</a>
+         <a  title='Book Votes' href="voting.html" id="voting">
+            <img src="images/icons8-ballot-50.png" 
+          alt="Reviews"> Book Votes</a>
+         <a title="Book Reviews" href="review.html">
+            <img src="images/icons8-pencil-50.png" 
+          alt="Reviews"> Book Reviews</a>
+      </div>
+
+      <div id="Reviews">
+    <h1>Your Book Reviews</h1>
+
+    <div class="titleInput">
+    <h3>Book Title</h3>
+    <input type="text"  id="bookName" placeholder="Book Title">
+    <br>
+    <h3>Review Author</h3>
+    <input type="text" id="reviewAuthor" placeholder="Your Name">
+</div>
+    <br>
+    <label for="reviewSection">
+    <br>
+    <h3>Reviews</h3>
+    <textarea name="reviewSection" id="reviewInput"  placeholder="Type Your Review Here" rows="16" cols="48"></textarea>
+</label>
+<br>
+<button type="submit" id="postReview">Post Review</button>
+      </div>
+ <br>
+  <ul id="reviewArea">
+
+  </ul>  
+  
+  <footer>
+  <h1>More Resources</h1>
+       </footer>
+       
+      
+       
+<script src="javaScript/jquery.js"></script>
+<script src="javaScript/effects.js"></script>  
+<script src="javaScript/reviewWriting.js"></script>
+</body>
+
+</html>
